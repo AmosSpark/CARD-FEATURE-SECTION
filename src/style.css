@@ -52,7 +52,7 @@ header {
 }
 
 .header__intro {  /* Intro */
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: hsl(229, 6%, 66%);
     margin-top: 1.5rem;
