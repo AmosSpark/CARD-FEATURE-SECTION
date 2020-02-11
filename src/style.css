@@ -52,12 +52,13 @@ header {
 }
 
 .header__intro {  /* Intro */
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: hsl(229, 6%, 66%);
-    margin-top: 1.5rem;
-    line-height: 1.7;
-}
+     font-size: 1.6rem;
+     font-weight: 400;
+     color: hsl(229, 6%, 66%);
+     margin-top: 1.5rem;
+     line-height: 1.7;
+ }
+
 
 /* CARD */
 
@@ -129,3 +130,16 @@ div > p {  /* Sub-text*/
     color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
+
+/* Below 375 */
+
+/* Above 375 */
+
+@media(min-width: 610px) {
+
+    .header__intro--desk {
+        display: block;
+    }
+}
+
+/* Desktop */
