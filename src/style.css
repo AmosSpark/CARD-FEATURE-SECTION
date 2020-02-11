@@ -17,10 +17,115 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    margin-top: 6rem;
+    padding: 3rem;
+    /* width: 65vw; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 3rem;
+    /* justify-items: center; */
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+.header__big--light,
+.header__big--bold {  /* Title Modifiers */
+    display: block;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.header__big--light {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.header__big--bold{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.header__intro {  /* Intro */
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin-top: 1.5rem;
+    line-height: 1.7;
+}
+
+/* CARD */
+
+.body {  /* Section style */
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+}
+
+.supr,
+.team,
+.karma,
+.calc {  /* Card-content style */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    padding: 3rem;
+    background-color: #fff;
+    margin-bottom: 2.5rem;
+    border-radius: .9rem;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 
+                0 6px 20px 1px rgba(0, 0, 0, 0.19);
+}
+
+.supr {  /* Card Top borders */
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calc {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+img,
+svg{  /* Icons */
+    justify-self: end;
+    margin-top: 3rem;
+}
+
+div h2 {  /* Header */
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: hsl(234, 12%, 34%);
+}
+
+div > p {  /* Sub-text*/
+    font-size: 1.5rem;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.7;
+}
+
+/* FOOTER */
+
 .attribution {
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 1.3rem;  
+    text-align: center;
+    font-weight: bold;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
