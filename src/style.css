@@ -113,7 +113,7 @@ div h2 {  /* Header */
 }
 
 div > p {  /* Sub-text*/
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: hsl(229, 6%, 66%);
     line-height: 1.7;
 }
