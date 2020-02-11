@@ -79,24 +79,24 @@ header {
     background-color: #fff;
     margin-bottom: 2.5rem;
     border-radius: .9rem;
-    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 
-                0 6px 20px 1px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 .4rem .8rem .2rem rgba(0, 0, 0, 0.2), 
+                0 .6rem 2.0rem .1rem rgba(0, 0, 0, 0.19);
 }
 
 .supr {  /* Card Top borders */
-    border-top: 5px solid hsl(180, 62%, 55%);
+    border-top: .5rem solid hsl(180, 62%, 55%);
 }
 
 .team {
-    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top: .5rem solid hsl(0, 78%, 62%);
 }
 
 .karma {
-    border-top: 5px solid hsl(34, 97%, 64%);
+    border-top: .5rem solid hsl(34, 97%, 64%);
 }
 
 .calc {
-    border-top: 5px solid hsl(212, 86%, 64%);
+    border-top: .5rem solid hsl(212, 86%, 64%);
 }
 
 img,
