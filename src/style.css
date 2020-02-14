@@ -12,6 +12,18 @@ html {
     font-size: 62.5%;
 }
 
+@media only screen and (max-width: 900px) { /* Tablet */
+    html {
+        font-size: 56.25%; /* 1rem = 10px */
+    }
+}
+
+@media only screen and (max-width: 600px) { /* Mobile */
+    html {
+        font-size: 50%;
+    }
+}
+
 body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -35,7 +47,7 @@ header {
 .header__big--light,
 .header__big--bold {  /* Title Modifiers */
     display: block;
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -50,7 +62,7 @@ header {
 }
 
 .header__intro {  /* Intro */
-     font-size: 1.6rem;
+     font-size: 2rem;
      font-weight: 400;
      color: hsl(229, 6%, 66%);
      margin-top: 1.5rem;
@@ -112,7 +124,7 @@ div h2 {  /* Header */
 }
 
 div > p {  /* Sub-text*/
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     color: hsl(229, 6%, 66%);
     line-height: 1.7;
 }
@@ -131,7 +143,7 @@ div > p {  /* Sub-text*/
 
 /* Query for Header Intro */
 
-@media(min-width: 711px) {
+@media only screen and (min-width: 711px) {
 
     .header__intro--desk {
         display: block;
@@ -140,7 +152,11 @@ div > p {  /* Sub-text*/
 
 /* Desktop */
 
-@media(min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
+
+    html {
+        font-size: 75%; 
+    }
 
     .container {
         margin-top: 0rem;
@@ -149,8 +165,16 @@ div > p {  /* Sub-text*/
 
     .header__big--light,
     .header__big--bold {  /* Title Modifiers */
-    font-size: 4rem;
-    line-height: 1.5;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .header__intro {
+        font-size: 1.3rem;
+    }
+
+    div > p {
+        font-size: 1rem;
     }
 
     section {
@@ -243,4 +267,5 @@ div > p {  /* Sub-text*/
         left: .2rem;
         background: rgb(246, 246, 246);
         transform: translateX(1.5rem) scale(1.03); 
-    }
+    } 
+
