@@ -1,83 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
-  <title>Frontend Mentor | Four card feature section</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="stylesheet" href="../css/main.css">
-</head>
-<body>
+    <title>Frontend Mentor | Four card feature section</title>
 
-  <div class="container">
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <!-- header -->
+        <header class="header">
+          <h1 class="header__big">
+            <span class="header__big--light">Reliable, efficient delivery</span>
+            <!-- header modifiers -->
+            <span class="header__big--bold">Powered by Technology</span>
+          </h1>
 
-    <div> <!-- header -->
-      <header class="header">
+          <p class="header__intro">
+            <span class="header__intro--desk"
+              >Our Artificial Intelligence powered tools use millions of project
+              data</span
+            >
+            points to ensure that your project is successful
+          </p>
+        </header>
+      </div>
 
-        <h1 class="header__big">
-          <span class="header__big--light">Reliable, efficient delivery</span> <!-- header modifiers -->
-          <span class="header__big--bold">Powered by Technology</span>
-        </h1>
+      <div class="main-body">
+        <!-- body -->
 
-        <p class="header__intro">
-          <span class="header__intro--desk">Our Artificial Intelligence powered tools 
-          use millions of project data</span> points 
-          to ensure that your project is successful
+        <main>
+          <section class="features">
+            <div class="features__card features__supr">
+              <!-- Supervisor -->
+              <h2>Supervisor</h2>
+              <p>Monitors activity to identify project roadblocks</p>
+              <img src="../images/icon-supervisor.svg" alt="svg" />
+            </div>
+
+            <div class="features__card features__team">
+              <!-- Team Builder -->
+              <h2>Team Builder</h2>
+              <p>
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+              <img src="../images/icon-team-builder.svg" alt="svg" />
+            </div>
+
+            <div class="features__card features__karma">
+              <!-- Karma -->
+              <h2>Karma</h2>
+              <p>Regularly evaluates our talent to ensure quality</p>
+              <img src="../images/icon-karma.svg" alt="svg" />
+            </div>
+
+            <div class="features__card features__calc">
+              <!-- Calculator -->
+              <h2>Calculator</h2>
+              <p>
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+                <g fill="none">
+                  <path
+                    fill="#474F54"
+                    d="M64 0v41.25l-3.75 3.875H3.75L0 41.25V0z"
+                  />
+                  <path fill="#32393F" d="M64 0v41.25l-3.75 3.875H32V0z" />
+                  <path fill="#DADAE5" d="M22.625 50.875h18.75v11.25h-18.75z" />
+                  <path fill="#C9C9D3" d="M32 50.875h9.375v11.25H32z" />
+                  <path fill="#EFEFF4" d="M0 41.25h64v11.5H0z" />
+                  <path fill="#DADAE5" d="M32 41.25h32v11.5H32z" />
+                  <path fill="#EFEFF4" d="M15.125 60.25h33.75V64h-33.75z" />
+                  <path fill="#DADAE5" d="M32 60.25h16.875V64H32z" />
+                  <path
+                    fill="#549EF2"
+                    d="M20.75 7.5c-7.236 0-13.125 5.889-13.125 13.125S13.514 33.75 20.75 33.75s13.125-5.889 13.125-13.125S27.986 7.5 20.75 7.5zm0 18.75a5.631 5.631 0 01-5.625-5.625A5.631 5.631 0 0120.75 15a5.631 5.631 0 015.625 5.625 5.631 5.631 0 01-5.625 5.625z"
+                  />
+                  <g fill="#377FD2">
+                    <path
+                      d="M45.125 7.5H56.5v3.75H45.125zM37.625 7.5h3.75v3.75h-3.75zM45.125 22.5H56.5v3.75H45.125zM37.625 22.5h3.75v3.75h-3.75zM37.625 15H56.5v3.75H37.625zM37.625 30H56.5v3.75H37.625z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <p class="footer__attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://devcareer.io/amosspark">Spark</a>
         </p>
-
-      </header>
-
+      </footer>
     </div>
-
-    <div class="main-body"> <!-- body -->
-
-      <main>
-        <section class="features">
-
-          <div class="features__card features__supr">  <!-- Supervisor -->
-            <h2>Supervisor</h2>
-            <p>Monitors activity to identify project roadblocks</p>
-            <img src="../images/icon-supervisor.svg" alt="svg">
-          </div>
-
-          <div class="features__card features__team">  <!-- Team Builder -->
-            <h2>Team Builder</h2>
-            <p>Scans our talent network to create the optimal team for your project</p>
-            <img src="../images/icon-team-builder.svg" alt="svg">
-          </div>
-
-          <div class="features__card features__karma">  <!-- Karma -->
-            <h2>Karma</h2>
-            <p>Regularly evaluates our talent to ensure quality</p>
-            <img src="../images/icon-karma.svg" alt="svg">
-          </div>
-
-          <div class="features__card features__calc"> <!-- Calculator -->
-            <h2>Calculator</h2>
-            <p>Uses data from past projects to provide better delivery estimates</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><g fill="none"><path fill="#474F54" d="M64 0v41.25l-3.75 3.875H3.75L0 41.25V0z"/>
-              <path fill="#32393F" d="M64 0v41.25l-3.75 3.875H32V0z"/><path fill="#DADAE5" d="M22.625 50.875h18.75v11.25h-18.75z"/>
-              <path fill="#C9C9D3" d="M32 50.875h9.375v11.25H32z"/><path fill="#EFEFF4" d="M0 41.25h64v11.5H0z"/>
-              <path fill="#DADAE5" d="M32 41.25h32v11.5H32z"/><path fill="#EFEFF4" d="M15.125 60.25h33.75V64h-33.75z"/>
-              <path fill="#DADAE5" d="M32 60.25h16.875V64H32z"/><path fill="#549EF2" d="M20.75 7.5c-7.236 0-13.125 5.889-13.125 13.125S13.514 33.75 20.75 33.75s13.125-5.889 13.125-13.125S27.986 7.5 20.75 7.5zm0 18.75a5.631 5.631 0 01-5.625-5.625A5.631 5.631 0 0120.75 15a5.631 5.631 0 015.625 5.625 5.631 5.631 0 01-5.625 5.625z"/>
-              <g fill="#377FD2"><path d="M45.125 7.5H56.5v3.75H45.125zM37.625 7.5h3.75v3.75h-3.75zM45.125 22.5H56.5v3.75H45.125zM37.625 22.5h3.75v3.75h-3.75zM37.625 15H56.5v3.75H37.625zM37.625 30H56.5v3.75H37.625z"/></g></g>
-            </svg>
-          </div>
-
-        </section>
-    </main>
-
-    </div>
-
-    <footer class="footer">
-      <p class="footer__attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://devcareer.io/amosspark">Spark</a>
-      </p>
-    </footer>
-    
-  </div>
-
-</body>
+  </body>
 </html>
