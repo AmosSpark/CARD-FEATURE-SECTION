@@ -22,18 +22,18 @@
 
   &__supr {
     /* Card Top borders */
-    border-top: 0.5rem solid $supr-border;
+    border-top: $supr-border;
   }
 
   &__team {
-    border-top: 0.5rem solid $team-border;
+    border-top: $team-border;
   }
 
   &__karma {
-    border-top: 0.5rem solid $karma-border;
+    border-top: $karma-border;
   }
 
   &__calc {
-    border-top: 0.5rem solid $calc-border;
+    border-top: $calc-border;
   }
 }
