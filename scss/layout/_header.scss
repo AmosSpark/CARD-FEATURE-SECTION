@@ -1,0 +1,30 @@
+.header {
+  text-align: center;
+
+  &__big--light,
+  &__big--bold {
+    /* Title Modifiers */
+    display: block;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  &__big--light {
+    font-weight: $weight-lighter;
+    color: $color-secondary;
+  }
+
+  &__big--light {
+    font-weight: $weight-light;
+    color: $color-tertiary;
+  }
+
+  &__intro {
+    /* Intro */
+    font-size: 2rem;
+    font-weight: $weight-bold;
+    color: $col-primary;
+    margin-top: 1.5rem;
+    line-height: 1.7;
+  }
+}

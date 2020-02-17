@@ -1,0 +1,43 @@
+.features {
+  &__supr {
+    @include Transition;
+  }
+
+  &__supr:hover {
+    top: 0;
+    right: 1rem;
+    background: rgb(246, 246, 246);
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+  &__team {
+    @include Transition;
+  }
+
+  &__team:hover {
+    bottom: 0.2rem;
+    background: rgb(246, 246, 246);
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
+  &__karma {
+    @include Transition;
+  }
+
+  &__karma:hover {
+    top: 0.2rem;
+    background: rgb(246, 246, 246);
+    transform: translateY(1.5rem) scale(1.03);
+  }
+
+  &__calc {
+    @include Transition;
+  }
+
+  &__calc:hover {
+    top: 0;
+    left: 0.2rem;
+    background: rgb(246, 246, 246);
+    transform: translateX(1.5rem) scale(1.03);
+  }
+}

@@ -1,0 +1,39 @@
+.features {
+  /* Section style */
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  gap: 2.5rem;
+
+  &__supr,
+  &__team,
+  &__karma,
+  &__calc {
+    /* Card-content style */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    padding: 2rem;
+    border-radius: 0.9rem;
+    box-shadow: 0 0.4rem 0.8rem 0.2rem rgba(0, 0, 0, 0.2),
+      0 0.6rem 2rem 0.1rem rgba(0, 0, 0, 0.19);
+  }
+
+  &__supr {
+    /* Card Top borders */
+    border-top: 0.5rem solid $supr-border;
+  }
+
+  &__team {
+    border-top: 0.5rem solid $team-border;
+  }
+
+  &__karma {
+    border-top: 0.5rem solid $karma-border;
+  }
+
+  &__calc {
+    border-top: 0.5rem solid $calc-border;
+  }
+}

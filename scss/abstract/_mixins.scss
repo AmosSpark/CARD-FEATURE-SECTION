@@ -1,0 +1,9 @@
+@mixin Transition {
+  // Card transition
+  position: relative;
+  transition-property: position;
+  transition-duration: 10s, 0.5s;
+  transition-delay: 0.5s, 0;
+  transition-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
